@@ -23,4 +23,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     wearApp project(':wear')
     compile 'com.google.android.gms:play-services:+'
+    compile files('libs/Pubnub-Android-3.7.0.jar')
+    compile files('libs/bcprov-jdk15on-1.47.jar')
 }
