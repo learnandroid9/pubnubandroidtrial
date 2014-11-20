@@ -77,7 +77,7 @@ public class PhoneActivity extends Activity {
 
                         @Override
                         public void successCallback(String channel, Object message) {
-                            System.out.println("SUBSCRIBE : " + channel + " : "
+                            System.out.println("pubnub received data : " + channel + " : "
                                     + message.getClass() + " : " + message.toString());
                         }
 
